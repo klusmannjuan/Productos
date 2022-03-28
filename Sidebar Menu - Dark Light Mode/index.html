@@ -1,0 +1,373 @@
+<!-- Coding by CodingLab | www.codinglabweb.com -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"&amp;gt;>
+    
+    <!----======== CSS ======== -->
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale-1.0, maximum-scale-1.0, minimum-scale-1.0">
+    
+    <!----===== Boxicons CSS ===== -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
+    
+    <title>Plasfacol - Contenido</title> 
+</head>
+<body>
+
+        <nav class="sidebar close">
+            <header>
+                <div class="image-text">
+                    <span class="image">
+                        <img src=https://static.wixstatic.com/media/f2cfef_d3bb47173ae84f2b9b23a609150532be~mv2.png/v1/fill/w_32%2Ch_32%2Clg_1%2Cusm_0.66_1.00_0.01/f2cfef_d3bb47173ae84f2b9b23a609150532be~mv2.png alt="">
+                    </span>
+
+                    <div class="text logo-text">
+                        <span class="name">ROL</span>
+                        <span class="profession">Administrador</span>
+                    </div>
+                </div>
+
+                <i class='bx bx-chevron-right toggle'></i>
+            </header>
+
+            <div class="menu-bar">
+                <div class="menu">
+
+                    <li class="search-box">
+                        <i class='bx bx-search icon'></i>
+                        <input type="text" placeholder="Buscador">
+                    </li>
+
+                    <ul class="menu-links">
+                        <li class="nav-link">
+                            <a href="#">
+                                <i class='bx bxs-home icon' ></i>
+                                <span class="text nav-text">Inicio</span>
+                            </a>
+                        </li>
+
+
+                        <li class="nav-link">
+                            <a href="#">
+                                <i class='bx bxs-user icon'></i>
+                                <span class="text nav-text">Clientes</span>
+                            </a>
+                        </li>
+
+                        <li class="nav-link">
+                            <a href="#">
+                                <i class='bx bxs-truck icon'></i>
+                                <span class="text nav-text">Proveedores</span>
+                            </a>
+                        </li>
+
+                        <li class="nav-link">
+                            <a href="#">
+                                <i class='bx bxs-data icon'></i>
+                                <span class="text nav-text">Existencias</span>
+                            </a>
+                        </li>
+
+                        <li class="nav-link">
+                            <a href="#">
+                                <i class='bx bxs-box icon'></i>
+                                <span class="text nav-text">Productos</span>
+                            </a>
+                        </li>
+
+                        <li class="nav-link">
+                            <a href="#">
+                                <i class='bx bxs-up-arrow-circle icon'></i>
+                                <span class="text nav-text">Salida</span>
+                            </a>
+                        </li>
+
+                        <li class="nav-link">
+                            <a href="#">
+                                <i class='bx bxs-down-arrow-circle icon'></i>
+                                <span class="text nav-text">Entradas</span>
+                            
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+
+            <div class="bottom-content">
+                <li class="">
+                    <a href="#">
+                        <i class='bx bx-log-out icon' ></i>
+                        <span class="text nav-text">Cerrar</span>
+                    </a>
+                </li>
+
+                    <li class="mode">
+                        <div class="sun-moon">
+                            <i class='bx bx-moon icon moon'></i>
+                            <i class='bx bx-sun icon sun'></i>
+                        </div>
+                        <span class="mode-text text">Modo oscuro</span>
+
+                        <div class="toggle-switch">
+                        <span class="switch"></span>
+                        </div>
+                    </li>
+                </div>
+            </div>
+        </nav>
+
+
+        <section class="home"> 
+        
+            <h1 class="text">Productos</h1>
+            <div class="fecha"></div>
+
+            <div id="contenedor">
+
+                <div id="registro">
+                    <form action="#" class="forms-inicio">
+                        <h1 class="title">Registrar Productos</h1>
+                            <div class="input-field">
+                                <i class='bx bx-barcode' ></i>
+                                <input type="text" placeholder="Codigo" id="Identificación" required>
+                            </div>
+
+                        <div class="input-field">
+                            <i class='bx bxs-user' ></i>
+                            <input type="text" placeholder="Nombre" id="Nombre" required>
+                        </div>
+
+                        <label class="input-sizer stacked">
+                            <i class='bx bxs-edit-alt' ></i>
+                            <textarea rows="2"   placeholder="Descripción"></textarea>
+                        </label>
+                        
+                        <div class="input-field">
+                            <i class='bx bx-money' ></i>
+                            <input type="money" placeholder="Precio de Entrada" id="Precio" required>
+                        </div>
+                        <div class="input-field">
+                            <i class='bx bx-money-withdraw' ></i>
+                            <input type="money" placeholder="Precio de Salida" id="Precio" required>
+                        </div>
+                        <div class="input-field">
+                            <i class='bx bxs-package' ></i>
+                            <input type="email" placeholder="Presentación" id="Presentación" required>
+                        </div>
+                            <input type="submit" value="Guardar" class="btn solid">
+                            <input type="submit" value="Cancelar" class="btn solid">
+                </form>
+        </div>
+
+        <div class="barra-nav">
+            <table class="tab-1">
+                <td>
+                    <h1 class="t-l">Lista de Productos</h1>
+                </td>
+
+                <td>
+                    <span class="p-l">Buscar por:</span>
+                </td>
+
+                <td>
+                    <select name="filtro" id="filtro">
+                        <option value="">Codigo</option>
+                        <option value="">Nombre</option>
+                        <option value="">Descripción</option>
+                        <option value="">P.E</option>
+                        <option value="">P.S</option>
+                        <option value="">Presentación</option>
+                    </select>
+                </td>
+
+                <td>
+                    <input type="text" placeholder="Buscar...">
+                </td>
+
+                <td>
+                    <li class="nav-link n-b nav-us1">
+                        <a href="#">
+                            <i class='bx bx-search-alt-2 icon1 icon-b'></i>
+                        </a>
+                    </li>
+                </td>
+
+                <td>
+                    <li class="nav-link n-b nav-us2">
+                        <a href="#">
+                            <i class='bx bxs-file icon2 incon-b' ></i>
+                        </a>
+                    </li>
+                </td>
+
+                <td>
+                    <li class="nav-link n-b nav-us3">
+                        <a href="#">
+                            <i class='bx bx-edit-alt icon3 icon-b'></i>
+                        </a>
+                    </li>
+                </td>
+
+                <td>
+                    <li class="nav-link n-b nav-us4">
+                        <a href="#">
+                            <i class='bx bxs-plus-circle icon4 icon-b'></i>
+                        </a>
+                    </li>
+                </td>
+
+                <td>
+                    <li class="nav-link n-b nav-us5">
+                        <a href="#">
+                            <i class='bx bx-lock-alt icon5 icon-b'></i>
+                        </a>
+                    </li>
+                </td>    
+        
+            </table>
+
+        </div> 
+
+
+                         
+
+            <div  class="lista">
+
+                    <table border="1" class="tab-l">
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th>Codigo</th>
+                                <th>Nombre </th>
+                                <th>Descripción</th>
+                                <th>Precio Entrada</th>
+                                <th>Precio Salida</th>
+                                <th>Presentación</th>
+                            </tr>
+                        </thead>
+
+                            <tr>
+                                <td><i class='bx bxs-check-circle icon-f'></i></td>                                
+                                <td data-label="Codigo">123</td>
+                                <td data-label="Nombre">Gancho de ropa</td>
+                                <td data-label="Descripción">Gancho de ropa, color negro de forma cóncava con acabados y salientes en forma de agarraderas para poder colgar y otros dos pequeños en la parte de abajo para poder asegurar la prenda, fabricado en ABS		
+                                </td>
+                                <td data-label="Precio Entrada">100.000</td>
+                                <td data-label="Precio Salida">$183</td>
+                                <td data-label="Presentación">Unica Presentacion (Color negro)</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td data-label="Codigo"></td>
+                                <td data-label="Nombre"></td>
+                                <td data-label="Descripción"></td>
+                                <td data-label="Precio Entrada"></td>
+                                <td data-label="Precio Salida"></td>
+                                <td data-label="Presentación"></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td data-label="Codigo"></td>
+                                <td data-label="Nombre"></td>
+                                <td data-label="Descripción"></td>
+                                <td data-label="Precio Entrada"></td>
+                                <td data-label="Precio Salida"></td>
+                                <td data-label="Presentación"></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td data-label="Codigo"></td>
+                                <td data-label="Nombre"></td>
+                                <td data-label="Descripción"></td>
+                                <td data-label="Precio Entrada"></td>
+                                <td data-label="Precio Salida"></td>
+                                <td data-label="Presentación"></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td data-label="Codigo"></td>
+                                <td data-label="Nombre"></td>
+                                <td data-label="Descripción"></td>
+                                <td data-label="Precio Entrada"></td>
+                                <td data-label="Precio Salida"></td>
+                                <td data-label="Presentación"></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td data-label="Codigo"></td>
+                                <td data-label="Nombre"></td>
+                                <td data-label="Descripción"></td>
+                                <td data-label="Precio Entrada"></td>
+                                <td data-label="Precio Salida"></td>
+                                <td data-label="Presentación"></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td data-label="Codigo"></td>
+                                <td data-label="Nombre"></td>
+                                <td data-label="Descripción"></td>
+                                <td data-label="Precio Entrada"></td>
+                                <td data-label="Precio Salida"></td>
+                                <td data-label="Presentación"></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td data-label="Codigo"></td>
+                                <td data-label="Nombre"></td>
+                                <td data-label="Descripción"></td>
+                                <td data-label="Precio Entrada"></td>
+                                <td data-label="Precio Salida"></td>
+                                <td data-label="Presentación"></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td data-label="Codigo"></td>
+                                <td data-label="Nombre"></td>
+                                <td data-label="Descripción"></td>
+                                <td data-label="Precio Entrada"></td>
+                                <td data-label="Precio Salida"></td>
+                                <td data-label="Presentación"></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td data-label="Codigo"></td>
+                                <td data-label="Nombre"></td>
+                                <td data-label="Descripción"></td>
+                                <td data-label="Precio Entrada"></td>
+                                <td data-label="Precio Salida"></td>
+                                <td data-label="Presentación"></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td data-label="Codigo"></td>
+                                <td data-label="Nombre"></td>
+                                <td data-label="Descripción"></td>
+                                <td data-label="Precio Entrada"></td>
+                                <td data-label="Precio Salida"></td>
+                                <td data-label="Presentación"></td>
+                            </tr>
+                    
+                    </table>
+
+                </div>
+
+        
+            </div>
+        
+    
+
+    
+        </section>
+
+        <div class="footer">
+            <p class="text">Copyright:©2022 Plasfacol</p>
+        </div>
+
+        <script src="script.js"></script>
+</body>
+</html>
